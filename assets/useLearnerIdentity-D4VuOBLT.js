@@ -1,0 +1,1 @@
+import{X as a,Y as r}from"./index-DyN_HnRY.js";function u(){const n=a(),e=r({enabled:!!n});if(!n)return{status:"unauthenticated"};if(e.isLoading)return{status:"loading"};const t=e.data;return e.error||!t?{status:"unauthenticated"}:{status:"ready",identity:{name:[t.first_name,t.last_name].filter(Boolean).join(" ").trim()||t.email,email:t.email}}}export{u};

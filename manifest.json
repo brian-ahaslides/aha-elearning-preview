@@ -1,0 +1,10 @@
+{
+  "id": "aha-elearning",
+  "name": "eLearning",
+  "icon": "/icons/system-lesson.svg",
+  "baseUrl": "",
+  "staticTabs": [
+    { "contentUrl": "/", "context": "home" },
+    { "contentUrl": "/", "context": "editor", "name": "eLearning" }
+  ]
+}
